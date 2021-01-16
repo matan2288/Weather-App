@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,CAAC,CAAA;EACG,KAAK,EAAE,GAAG;CACb",
+    "sources": [
+        "makeIt_Responsive.scss"
+    ],
+    "names": [],
+    "file": "makeIt_Responsive.css"
+}

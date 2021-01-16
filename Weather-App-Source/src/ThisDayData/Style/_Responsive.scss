@@ -1,0 +1,97 @@
+@media(max-width: 800px) {
+
+	#thisday-maindiv {
+		width: 95vw;
+		
+	}
+	#today-plus-city {
+		display: flex;
+		justify-content: flex-start;
+		justify-content: space-around;
+		line-height: 8vh;
+	  #city-and-date {
+			
+			#city {
+				font-size: 25px;
+				margin-top: 10vh;
+				line-height: 30px;
+			}
+			#thisday-date {
+				font-size: 12px;
+				line-height: 25px
+			}
+		}
+		#logo-and-degrees {
+		
+			#main-degrees {
+				font-size: 22px;
+			}
+			img {
+				height: 50px;
+				width: 50px;
+			}
+		}
+	}
+	#input-plus-extraData {
+		width: 60vw;
+		height: fit-content;
+		position: relative;
+		#input-container {
+			width: 95%;
+            margin-left: 8vw;
+            margin-top: 5vh;
+			p {
+				font-size: 10px;
+				color: rgb(204, 203, 203);
+				line-height: 15px;
+				margin: 12px;
+			}
+			#input-id {
+				font-size: 15px;
+			}
+			button {
+				padding: 5px;
+				font-size: 12px;
+				width: 80px;
+				color: rgb(228, 228, 228);
+			}
+		}
+		#extra-data {
+			position: relative;
+			left: 7vw;
+			// margin-top: 5vh;
+			// margin-left: 7vw;
+			text-align: center;
+			flex-wrap: wrap;
+			#sunrise-sunset,
+			#wind-rain,
+			#highest-lowest {
+				p {
+					font-size: 11px;
+					line-height: 15px;
+					p {
+						font-size: 15px;
+						color: rgb(58, 58, 58);
+					}
+				}
+			}
+		}
+	}
+	.Header {
+		font-size: 15px;
+	}
+
+	
+}
+
+
+@media(max-height: 400px) { 
+
+	#input-container{
+		border: solid red 1px;
+	}
+
+
+}
+
+
